@@ -1,2 +1,2 @@
 def is_palindrome(palabra):
-    pass
+    palabra = palabra.replace(" ", "").lower().replace(".", "").replace(",", "").replace(":", "").replace(";", "").replace("!", "").replace("?", "")
